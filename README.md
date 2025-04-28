@@ -15,7 +15,7 @@ This Python tool scrapes historical savings account interest rate data for Belgi
 ## Project Structure
 
 ```
-wayback_data/
+wayback_data_scraper/
 ├── config.py           # Central configuration (URLs, API keys, settings)
 ├── log_setup.py        # Configures logging (console and file)
 ├── requirements.txt    # Project dependencies
@@ -42,7 +42,7 @@ wayback_data/
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/onecuriousmindset/wayback_data_scraper
-    cd wayback_data
+    cd wayback_data_scraper
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -72,13 +72,13 @@ wayback_data/
 
 ## Usage
 
-Run the scraper from the project's root directory (`wayback_data`):
+Run the scraper from the project's root directory (`wayback_data_scraper`):
 
 ```bash
-python -m wayback_data
+python -m wayback_data_scraper
 ```
 
-Or, if you are inside the `wayback_data` directory:
+Or, if you are inside the `wayback_data_scraper` directory:
 
 ```bash
 python __main__.py
